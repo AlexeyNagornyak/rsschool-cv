@@ -159,14 +159,14 @@ html {
     display: block;
     width: 50px;
     height: 50px;
-    background: url(/assets/github_logo_icon.png) center/90% no-repeat;
+    background: url(assets/github_logo_icon.png) center/90% no-repeat;
 }
 
 .link-rsschool {
     display: block;
     height: 70px;
     width: 80px;
-    background: url(/assets/rs_school_js.svg) center/100% no-repeat;
+    background: url(assets/rs_school_js.svg) center/100% no-repeat;
 }
 
 .footer-text {
