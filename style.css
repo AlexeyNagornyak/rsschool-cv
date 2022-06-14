@@ -11,7 +11,7 @@ html {
   }
 
 .container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -99,6 +99,7 @@ html {
 .right-side {
     width: 70%;
     padding: 5% 10%;
+    border-right: 2px solid #b5b1aa;
     border-bottom: 2px solid #b5b1aa;
 }
 
@@ -127,4 +128,47 @@ html {
 .code {
     background-color: #dfdfdf;
     border-radius: 3px;
+    word-wrap: normal;
+    white-space: pre;
+}
+
+.course-link {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.course-link a {
+    text-decoration: none;
+    color: #9e9893;
+    padding: 5px 0;
+}
+
+.footer {
+    background-color: #3c3a38;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.link-githab {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(/assets/github_logo_icon.png) center/90% no-repeat;
+}
+
+.link-rsschool {
+    display: block;
+    height: 70px;
+    width: 80px;
+    background: url(/assets/rs_school_js.svg) center/100% no-repeat;
+}
+
+.footer-text {
+    color: #d8d4d4;
 }
