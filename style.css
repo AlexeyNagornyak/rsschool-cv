@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    height: 300px;
+}
+
+.header-left {
+    width: 30%;
+    background-color: #43413e;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left::after{
+    content: "";
+    position: absolute;
+    left: 100%; 
+    bottom: 0px;
+    border: 150px solid transparent;
+    border-left: 50px solid #43413e;
+    z-index: 1;
+}
+
+.header-right {
+    width: 70%;
+    height: 300px;
+    background-color: #b5b1aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.nav {
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 10px;
+    height: 30px;
+}
+
+.nav-item:hover {
+    border-bottom: 5px solid #f3bf3d;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.title h2 {
+    font-size: 18px;
+}
+
+.section {
+    display: flex;
+}
+
+.left-side {
+    background-color: #43413e;
+    width: 30%;
+}
+
+.right-side {
+    width: 70%;
+    padding: 5% 10%;
+    border-right: 2px solid #b5b1aa;
+    border-bottom: 2px solid #b5b1aa;
+}
+
+.heading {
+    background-color: #f3bf3d;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 5%;
+    position: relative;
+    font-size: large;
+}
+
+.heading::after {
+    content: "";
+    position: absolute;
+    left: 100%; 
+    bottom: 0px;
+    border: 19px solid transparent;
+    border-left: 15px solid #f3bf3d;
+}
+
+.list {
+    list-style: none;
+}
+
+.code {
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    word-wrap: normal;
+    white-space: pre;
+}
+
+.course-link {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.course-link a {
+    text-decoration: none;
+    color: #9e9893;
+    padding: 5px 0;
+}
+
+.footer {
+    background-color: #3c3a38;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.link-githab {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(/assets/github_logo_icon.png) center/90% no-repeat;
+}
+
+.link-rsschool {
+    display: block;
+    height: 70px;
+    width: 80px;
+    background: url(/assets/rs_school_js.svg) center/100% no-repeat;
+}
+
+.footer-text {
+    color: #d8d4d4;
+}
