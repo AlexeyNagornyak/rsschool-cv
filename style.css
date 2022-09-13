@@ -58,6 +58,7 @@ html {
 .nav {
     position: absolute;
     bottom: 0;
+    z-index: 2;
 }
 
 .nav-item {
